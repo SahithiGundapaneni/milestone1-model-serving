@@ -22,7 +22,10 @@ jobs:
 
       - name: Run tests
         working-directory: module3/milestone2
+        env:
+          PYTHONPATH: .
         run: pytest -v
+
 
   build_and_push:
     runs-on: ubuntu-latest
