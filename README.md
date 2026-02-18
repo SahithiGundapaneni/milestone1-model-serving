@@ -1,4 +1,5 @@
-![CI Status](https://github.com/SahithiGundapaneni/milestone1-model-serving/actions/workflows/build.yml/badge.svg)
+![![CI](https://github.com/SahithiGundapaneni/milestone1-model-serving/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/SahithiGundapaneni/milestone1-model-serving/actions/workflows/build.yml)
+
 
 # Milestone 2 – Containerization & CI/CD Pipeline
 
@@ -31,7 +32,7 @@ https://hub.docker.com/r/sahithigundapaneni/milestone2
 
 Example Image:
 
-sahithigundapaneni/milestone2:v0.1.13
+sahithigundapaneni/milestone2:v0.1.19
 
 ---
 
@@ -39,11 +40,11 @@ sahithigundapaneni/milestone2:v0.1.13
 
 To pull the image:
 
-docker pull sahithigundapaneni/milestone2:v0.1.13
+docker pull sahithigundapaneni/milestone2:v0.1.19
 
 To run the container:
 
-docker run --rm sahithigundapaneni/milestone2:v0.1.13
+docker run --rm sahithigundapaneni/milestone2:v0.1.19
 
 ---
 
