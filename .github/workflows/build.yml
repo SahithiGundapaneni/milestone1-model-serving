@@ -47,4 +47,4 @@ jobs:
           context: module3/milestone2
           file: module3/milestone2/Dockerfile
           push: true
-          tags: docker.io/${{ secrets.REGISTRY_USERNAME }}/${{ secrets.IMAGE_NAME }}:${{ github.ref_name }}
+        tags: ${{ secrets.REGISTRY_USERNAME }}/milestone2:${{ github.ref_name }}
