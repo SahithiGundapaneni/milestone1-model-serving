@@ -1,15 +1,17 @@
+![CI Status](https://github.com/SahithiGundapaneni/milestone1-model-serving/actions/workflows/build.yml/badge.svg)
+
 # Milestone 2 – Containerization & CI/CD Pipeline
 
 ## Overview
 
-This milestone demonstrates containerization of the application and implementation of an automated CI/CD pipeline using GitHub Actions and Docker Hub.
+This milestone demonstrates the containerization of the application and the implementation of an automated Continuous Integration / Continuous Deployment (CI/CD) pipeline using GitHub Actions and Docker Hub.
 
-The pipeline performs:
+The pipeline automates:
 
 • Dependency installation  
-• Test execution using pytest  
-• Docker image build  
-• Docker image push to Docker Hub  
+• Automated test execution using pytest  
+• Docker image build process  
+• Docker image publication to Docker Hub  
 
 ---
 
@@ -21,7 +23,7 @@ The CI/CD pipeline is defined in:
 
 ---
 
-## Docker Image
+## Published Docker Image
 
 Docker Hub Repository:
 
