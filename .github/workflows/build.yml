@@ -6,7 +6,6 @@ on:
       - "v*.*.*"
 
 jobs:
-
   test:
     runs-on: ubuntu-latest
 
@@ -17,7 +16,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install dependencies
         working-directory: module3/milestone2
         run: pip install -r app/requirements.txt
 
@@ -45,9 +44,8 @@ jobs:
           password: ${{ secrets.REGISTRY_PASSWORD }}
 
       - name: Build and push
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v5
         with:
           context: module3/milestone2
           push: true
           tags: docker.io/${{ secrets.REGISTRY_USERNAME }}/${{ secrets.IMAGE_NAME }}:${{ github.ref_name }}
-
