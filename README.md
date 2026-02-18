@@ -1,4 +1,5 @@
-[![CI](https://github.com/SahithiGundapaneni/milestone1-model-serving/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/SahithiGundapaneni/milestone1-model-serving/actions/workflows/build.yml)
+[![CI](https://github.com/SahithiGundapaneni/milestone1-model-serving/actions/workflows/build.yml/badge.svg?event=push)](https://github.com/SahithiGundapaneni/milestone1-model-serving/actions/workflows/build.yml)
+
 
 
 
